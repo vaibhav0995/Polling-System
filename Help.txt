@@ -1,0 +1,29 @@
+                                          Information of System                                    
+
+The system has 25 voter Ids already stored in databases from vid01 to vid25. This is because the 
+system is secured in terms of registration of any new voter. When the new Voter register himself
+then the voter Id used to register is present already there in the database so the chances of fake
+registrations is canceled. All the registered Ids are inserted by Admin into database. 
+
+Functions for ADMIN :
+-> Can add registered voter Ids.
+-> Can search/delete any voter using his/her voter Id.
+-> Can see results of voting and can give or deny access of showing results to users.
+-> Can update his own info/ password.
+-> Can set system in its default state.
+-> Can start and end the elections. 
+-> Can add/remove notice on voter's frame.
+-> Can add candidate and party name for elections.
+-> Can add another Admin. 
+  
+By default username for admin is "vaibhav12" and password is "vg123".
+
+Functions for VOTERS :
+-> Can see own profile.
+-> Can edit the information.
+-> Can see the notices and results(if permission is given from admin !!).
+-> Can cast votes(even if candidate name is not known. Can cast votes on the basis of party also !);  
+-> Can change own password.
+-> Cannot revote in any condition.
+
+By default there are 4 users registered having username and password from vid01 to vid04.
